@@ -2,12 +2,33 @@ body {
     background-color: white;
     color: black;
     font-family: sans-serif;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    top: 13%;
+}
+
+p,h1 {
+    text-align: center;
+    margin-top: 0.4%;
+    margin-bottom: 0.4%;
+    vertical-align: middle;
+}
+h1 {
+    font-weight: 900;
+}
+a {
+    color: olivedrab;
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
         color: white;
+        
         font-family: sans-serif;
+    }
+    a {
+        color: yellowgreen;
     }
 }
